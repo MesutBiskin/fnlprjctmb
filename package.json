@@ -20,6 +20,7 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/react": "18.2.43",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",

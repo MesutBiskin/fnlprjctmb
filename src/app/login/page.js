@@ -8,6 +8,9 @@ export  default function LoginPage() {
     const [password, setPassword] = useState('');
     const [loginInProgress, setLoginInProgress] = useState(false);
 
+    //Defines an asynchronous function handleFormSubmit that is called when the login form is submitted.
+    // It prevents the default form submission, sets the loginInProgress state to true, calls the signIn function from NextAuth.js 
+    // with the provided credentials, and then sets loginInProgress back to false.
     async function handleFormSubmit(ev) {
         ev.preventDefault();
         setLoginInProgress(true);

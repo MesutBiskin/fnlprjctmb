@@ -21,7 +21,7 @@ export async function PUT(req) {
 }
 
 
-        // DELETE DATA !!!
+        // DELETE DATA !!
         export async function DELETE(req, res) {
             try {
               mongoose.connect(process.env.MONGO_URL);
